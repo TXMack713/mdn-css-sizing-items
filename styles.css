@@ -1,0 +1,49 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    overflow: auto;
+    word-break: break-all;
+    hyphens: auto;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+.task1 .box1 {
+    min-height: 100px;
+    border: 3px solid black;
+}
+
+.task1 .box2 {
+    height: 100px;
+    border: 3px solid black;
+}
+
+.task2 .box {
+    border: 3px solid black;
+}
+.task2 .inner {
+    inline-size: 60%;
+    padding-inline: 10%;
+    background-color: rebeccapurple;
+    border-radius: 5px;
+    color: white;
+}
+
+.task3 .box {
+    inline-size: 400px;
+    block-size: 300px;
+    border: 3px solid lightblue;
+}
+.task3 img {
+    max-inline-size: 100%;
+    max-block-size: 100%;
+}
+
